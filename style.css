@@ -28,8 +28,8 @@ img {
     height: auto;
 }
 ul{
-    list-style-type: none;
     list-style-position: inside;
+    list-style-type: none;
 }
 #page-wrap {
     max-width: 700px;
@@ -50,6 +50,9 @@ header {
 }
 #inner-header h1, #inner-header h2, #inner-header p {
     margin-top: 10px;
+}
+#inner-header h2 {
+    color: #FFC0CB;
 }
 #inner-header p {
     color: #C02026;
@@ -148,14 +151,159 @@ nav ul li a:hover {
     width: 100%;
     text-align: center;
 }
-.thongbao .chuc_mung img1 {
-    display: block;
-    width: 10%;
+.thongbao .chuc_mung p {
+    font-size: 150%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    color: #C02026;
+    margin-top: 20px;
+}
+.thongbao .thongbao_content {
+    width: 100%;
     float: left;
 }
+.thongbao .thongbao_content img {
+    width: 6%;
+    margin-top: 10px;
+    float: left;
+}
+.thongbao .thongbao_content p {
+    font-size: 150%;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
+.thongbao .thongbao_content h4 {
+    font-size: 170%;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    color: #C02026;
+    text-align: center;
+}
+.cau_vip p {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #003399;
+    color: white;
+    text-align: center;
+    margin-top: 208px;
+    font-size: 150%;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
 
+.dich_vu {
+    width: 100%;
+    border-top: 5px solid #C02026;
+}
+.dich_vu h1 {
+    width: 100%;
+    font-size: 113%;
+    text-align: center;
+    color: white;
+    background-color: #003399;
+    height: 50px;
+    line-height: 50px;
+}
+.tu_van {
+    width: 100%;
+}
+.tu_van img, .gia img {
+    width: 6%;
+    float: left;
+}
+.tu_van p, .gia p {
+    font-size: 150%;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
+.gia p {
+    font-size: 130%;
+    color: red;
+    text-transform: uppercase;
+}
+.quang_cao {
+    margin-top: 10px;
+}
+.quang_cao ul {
+   padding: 0;
+    margin: 0;
+}
+.quang_cao ul li {
+    padding-left: 10px;
+    font-size: 120%;
+    font-weight: bold;
+}
+.quang_cao ul li:before {
+    content: "==>";
+    padding-right: 5px;
+    color: #056F05;
+}
+.nap_the {
+    margin-top: 10px;
+}
+.thong_ke {
+    text-align: center;
+}
+.thong_ke h3 {
+    width: 100%;
+    font-size: 130%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+table {
+    margin: 10px auto;
+}
+table, th, td{
+    border: 1px solid #202020;
+}
+th {
+    height: 50px;
+}
+tr:hover {background-color: #f5f5f5}
 
-
+#footer {
+    max-width: 700px;
+    margin: 10px auto;
+}
+#footer .hinh_footer {
+    display: block;
+    width: 700px;
+}
+#footer h1 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #C02026;
+    color: whitesmoke;
+    padding-left: 10px;
+}
+.luuy {
+    width: 100%;
+    margin-top: 10px;
+}
+.luuy img {
+    width: 6%;
+    float: left;
+}
+.luuy p {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding-left: 5px;
+}
+.end p {
+    background-color: #202020;
+    color: #C02026;
+    text-align: center;
+    width: 100%;
+}
 
 
 
